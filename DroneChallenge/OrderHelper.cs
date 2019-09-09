@@ -90,6 +90,8 @@ namespace DroneChallenge
                         axis = 'x';
                         break;
                 }
+                
+              // this will tell the drone where to land
 
                 if (axis != ' ')
                 {
