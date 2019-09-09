@@ -19,6 +19,7 @@ namespace DroneChallenge
         private Boolean HasAvailableDrone { get; set; } = true;
         private DateTime endTime;
 
+        // Alerts the workers on whether there is a drone that is available and makes sure that there are orders that are needed to be filled
         public Warehouse(DateTime dateTime) : this(dateTime, new Point{X = 0, Y = 0})
         {
         }
