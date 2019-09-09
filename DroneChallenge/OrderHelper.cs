@@ -22,7 +22,8 @@ namespace DroneChallenge
             if (String.IsNullOrWhiteSpace(id)) id = "MW001";
             if (String.IsNullOrWhiteSpace(destination)) destination = "N1E1";
             if (created == null) created = new DateTime();
-
+            
+// this is how the drone will detect the space around it and will make note of it 
             return String.Format("{0} {1} {2}", id, destination.ToUpper(), created.ToString(TIME_FORMAT));
         }
 
@@ -43,7 +44,9 @@ namespace DroneChallenge
 
             return newOrder;
         }
-
+// this will notify the drone that a new order has just been placed and will need to come back to base for the package. 
+        
+        
         public static DateTime ParseCreated(String createdString, DateTime startTime)
         {
             var tokens = createdString.Split(':');
