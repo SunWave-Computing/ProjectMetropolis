@@ -35,6 +35,7 @@ namespace DroneChallenge.Tests
             Order order = new Order("Id", new DateTime(), "S1E2");
             warehouse.EnqueueForDelivery(order);
             warehouse.HasTimeToDeliverNextOrder(Arg.Any<DateTime>()).Returns(false);
+            //if there's enough time to deliever the next order, it doesnt return
         }
 
         /*[Fact]
