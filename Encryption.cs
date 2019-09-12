@@ -42,3 +42,4 @@ void ChilkatSample(void)
     }
 
 //This is an update to the Encryption.cs, this update does nothing but we are generating data!!! Yay!
+//This works good
