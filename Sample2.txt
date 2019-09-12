@@ -9,3 +9,4 @@ WM008 N11E5 09:31:50
 WM009 S3E2 10:02:55
 WM010 N7E200 10:31:50
 WM011 N11E5 21:42:00
+adding commits to generate data looks like some timestamps above
