@@ -18,6 +18,8 @@ namespace DroneChallenge.Tests
             deliverer = Substitute.For<OrderDeliverer>(warehouse, orderStreamer);
 
             deliveryService = new DeliveryService(deliverer);
+            
+            //drone gets order information
         }
 
         [Fact]
