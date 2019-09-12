@@ -81,7 +81,7 @@ namespace DroneChallenge.Tests
             Order sentAnotherOrder;
             Assert.False(warehouse.TrySendNextOrder(out sentAnotherOrder));
         }
-
+// allowing another order to be sent to the drone when it returns
         [Fact]
         public void Should_AllowSendNextOrder_When_ADroneReturns()
         {
