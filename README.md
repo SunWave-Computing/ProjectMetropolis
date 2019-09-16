@@ -480,4 +480,8 @@ These steps are for Google Cloud, but can also be used for Amazon AWS, and other
 
 To setup the firewall on Google Cloud, open the instance, on the middle of the instance settings page find NIC0. Open it, and then add the TCP Port 8000 for ingress, and egress on the Firewall.
 
-
+#The following regulations apply to Sunwave Metropolis drones model XA1: 
+#carry a weight under 55 lbs 
+#fly during daylight 
+#Fly under 100mph 
+#Fly below 400 ft 
