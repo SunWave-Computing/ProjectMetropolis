@@ -1,7 +1,7 @@
 Mozilla Public License Version 2.0
 ==================================
 
-### 1. Definition
+#### 1. Definition
 
 **1.1. “Contributor”**  
     means each individual or legal entity that creates, contributes to
