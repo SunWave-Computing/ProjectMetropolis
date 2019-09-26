@@ -23,7 +23,7 @@ void ChilkatSample(void)
     // encryption, and the input for decryption.
     // It may be "hex", "url", "base64", or "quoted-printable".
     crypt.put_EncodingMode("hex");
-
+    crypt.put_EncodingMode("base64");
     // Let's create a secret key by using the MD5 hash of a password.
     // The Digest-MD5 algorithm produces a 16-byte hash (i.e. 128 bits)
     crypt.put_HashAlgorithm("md5");
